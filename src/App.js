@@ -14,6 +14,8 @@ class App extends Component {
     console.log("Kebab case!: ", kebabCase);
     console.log("Kebab case!2: ", kebabCase);
     console.log("Kebab case!3: ", kebabCase);
+    console.log("Kebab case!3: ", kebabCase);
+    console.log("Kebab case!3: ", kebabCase);
     alert("AAAAAAAA this button does nothing!");
   };
 
@@ -41,3 +43,7 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+

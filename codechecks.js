@@ -21,19 +21,19 @@ module.exports.main = async function main() {
 
   // await visReg();
 
-  await watchLockFiles();
+  // await watchLockFiles();
 
-  if (codechecks.isPr()) {
-    await codechecks.saveDirectory("build", join(__dirname, "build"));
-    await codechecks.success({
-      name: "Per commit deployment",
-      shortDescription: `Commit deployed`,
-      detailsUrl: {
-        url: codechecks.getArtifactLink("build/index.html"),
-        label: "Deployment",
-      },
-    });
-  }
+  // if (codechecks.isPr()) {
+  //   await codechecks.saveDirectory("build", join(__dirname, "build"));
+  //   await codechecks.success({
+  //     name: "Per commit deployment",
+  //     shortDescription: `Commit deployed`,
+  //     detailsUrl: {
+  //       url: codechecks.getArtifactLink("build/index.html"),
+  //       label: "Deployment",
+  //     },
+  //   });
+  // }
 };
 
 async function visReg() {
